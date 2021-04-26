@@ -1,7 +1,7 @@
 [project]
 name = "trick"
 version = "0.1.0"
-description = ""
+description = "A collection of some helper functions"
 authors = [
     {name = "Elliot", email = "hack00mind@gmail.com"},
 ]
@@ -9,9 +9,10 @@ dependencies = []
 requires-python = ">=3.9"
 dynamic = ["classifiers"]
 license = {text = "MIT"}
+readme = "README.md"
 
 [project.urls]
-homepage = ""
+homepage = "https://github.com/Eliot00/python-trick"
 
 [build-system]
 requires = ["pdm-pep517"]
