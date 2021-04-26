@@ -1,0 +1,28 @@
+[project]
+name = "trick"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Elliot", email = "hack00mind@gmail.com"},
+]
+dependencies = []
+requires-python = ">=3.9"
+dynamic = ["classifiers"]
+license = {text = "MIT"}
+
+[project.urls]
+homepage = ""
+
+[build-system]
+requires = ["pdm-pep517"]
+build-backend = "pdm.pep517.api"
+
+[tool]
+[tool.pdm]
+[tool.pdm.dev-dependencies]
+dev = [
+    
+]
+test = [
+    "pytest~=6.2",
+]
